@@ -165,7 +165,7 @@ client.on('guildBanAdd', async (guild, user) => {
 	if (target.id === user.id) {
 		console.log(`${user.tag} got hit with the swift hammer of justice in the guild ${guild.name}, wielded by the mighty ${executor.tag}`);
 	} else {
-		console.log(`${user.tag} got hit with the swift hammer of justice in the guild ${guild.name}, audit log fetch was inconclusive.`);
+		console.log(`${user.tag} got hit with the swift hammer of justice in the guild ${guild.name}, audit log fetch was selam.`);
 	}
 });
 ```
